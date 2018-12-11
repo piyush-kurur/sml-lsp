@@ -17,7 +17,7 @@ install:
  - apt search mlton # mlton does not have a way of printing version.
 
 script:
-  - echo pending build script.
+  - mlton ast.mlb
 
 after_success:
   - echo "All is well."
