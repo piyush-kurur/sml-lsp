@@ -5,3 +5,4 @@
 *.lex.sml
 *.x86-linux
 ast
+package
